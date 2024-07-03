@@ -1,0 +1,261 @@
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f4f8; /* Light gray-blue color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+/* Full-width Carousel */
+.carousel-item img {
+    object-fit: cover;
+    height: 70vh; /* Adjust height as needed */
+}
+
+/* Carousel Captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    bottom: 20px;
+    padding: 20px;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    color: #000;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 30px;
+}
+
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff; /* Blue color for heading */
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #555; /* Dark gray color for text */
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-section ul li {
+    background: #ffffff; /* White background for list items */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.about-section a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff; /* Blue color for heading */
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #555; /* Dark gray color for text */
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-section ul li {
+    background: #ffffff; /* White background for list items */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.about-section a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz Section Styles */
+.quiz-section {
+    padding: 60px 0;
+}
+
+.quiz-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff; /* Blue color for heading */
+}
+
+.quiz-section .card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quiz-section .form-check {
+    margin-bottom: 10px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
